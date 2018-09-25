@@ -1,0 +1,1 @@
+cmd_/home/vagrant/driver/simple_char_drv.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-157-generic/scripts/module-common.lds --build-id  -o /home/vagrant/driver/simple_char_drv.ko /home/vagrant/driver/simple_char_drv.o /home/vagrant/driver/simple_char_drv.mod.o
